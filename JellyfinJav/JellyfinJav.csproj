@@ -20,7 +20,6 @@
   <ItemGroup>
     <PackageReference Include="AngleSharp" Version="1.1.2" />
     <PackageReference Include="FlareSolverrSharp" Version="3.0.7" />
-    <PackageReference Include="Jellyfin.Controller" Version="10.10.7" />
     <PackageReference Include="Jellyfin.Model" Version="10.11.0" />
     <PackageReference Include="Jellyfin.Common" Version="10.11.0" />
     <PackageReference Include="Jellyfin.Controller" Version="10.11.0" />
