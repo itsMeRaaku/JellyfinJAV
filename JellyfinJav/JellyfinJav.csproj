@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net80</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyVersion>2025.05.17</AssemblyVersion>
     <FileVersion>2025.05.17</FileVersion>
     <NoWarn>SA1633</NoWarn>
@@ -21,7 +21,10 @@
     <PackageReference Include="AngleSharp" Version="1.1.2" />
     <PackageReference Include="FlareSolverrSharp" Version="3.0.7" />
     <PackageReference Include="Jellyfin.Controller" Version="10.10.7" />
-    <PackageReference Include="Jellyfin.Model" Version="10.10.7" />
+    <PackageReference Include="Jellyfin.Model" Version="10.11.0" />
+    <PackageReference Include="Jellyfin.Common" Version="10.11.0" />
+    <PackageReference Include="Jellyfin.Controller" Version="10.11.0" />
+    <PackageReference Include="Jellyfin.Plugin" Version="10.11.0" />
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
     <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
   </ItemGroup>
